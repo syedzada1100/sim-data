@@ -13,6 +13,7 @@ apt update && apt upgrade
 pkg install git
 pkg install python
 pip install bs4
+rm -rf sim-data
 git clone https://github.com/syedzada1100/sim-data.git
 cd sim-data
 chmod 777 run
